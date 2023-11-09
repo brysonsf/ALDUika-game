@@ -75,7 +75,7 @@ const Game = {
 		Game.score = score;
 		Game.elements.score.innerText = Game.score;
 	},
-
+	
 	fruitSizes: [
 		{ radius: 24,  scoreValue: 1,  img: './assets/img/circle0.png'  },
 		{ radius: 32,  scoreValue: 3,  img: './assets/img/circle1.png'  },
@@ -89,6 +89,8 @@ const Game = {
 		{ radius: 160, scoreValue: 55, img: './assets/img/circle9.png'  },
 		{ radius: 192, scoreValue: 66, img: './assets/img/circle10.png' },
 	],
+
+
 	currentFruitSize: 0,
 	nextFruitSize: 0,
 	setNextFruitSize: function () {
